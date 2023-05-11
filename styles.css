@@ -12,7 +12,7 @@ section{
 .profile{
     height: 100vh;
     width: 100%;
-    background-color: #081420;
+    background-color: #3D3C42;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,16 +23,13 @@ section{
     height: auto;
     width: 100%;
     max-width: 460px;
-    background-color: #222429;
+    background-color: #4C4C6D;
     padding: 0px 0px 40px 0px;
     border-radius: 20px;
     transition: all .40s ease;
     cursor: pointer;
 }
 
-.container:hover{
-    transform: scale(1.1);
-}
 
 .container img{
     width: 100%;
@@ -46,6 +43,7 @@ section{
     font-size: 35px;
     color: #ffffffd9;
     font-weight: 600;
+    box-shadow: i;
 
 }
 
@@ -70,51 +68,29 @@ section{
 
 }
 
-.newsletter{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 30px;
+#message{
+    color: crimson;
+    padding: 1px;
+    margin-bottom: 20px;
+    width: auto;
 }
 
-.newsletter form{
-  width: 100%;
-  max-width: 370px;
-  position: relative;
-}
-
-.newsletter form input:first-child{
-    display: inline-block;
-    width: 100%;
-    outline: none;
-    border: 2px solid #efb90b;
-    padding: 11px 90px 11px 9px;
-    border-radius: 20px;
-}
-
-
-.newsletter form input:last-child{
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    border: none;
+button{
     background-color: #efb90b;
     color: #ffffffd9;
     padding: 9px 29px;
     border-radius: 20px;
+    border: 2px solid white;
     cursor: pointer;
-    top: 4px;
-    right: 4px;
-
 }
 
-@media only screen and  (min-width: 992px) (min-width: 768px){
+@media only screen and  (min-width: 992px) and (min-width: 768px){
     section{
         padding :20px 4%;
     }
     .container{
         width: 100px;
-        height: auto;
+        height: auto; 
         max-width: 600px;
     }
     .container img{
